@@ -1,7 +1,3 @@
-import random
-random.randint(10,255)
-for myChar in range(10):
-myChar = input(randomNum)
-print ("Voici les caractères du code ASCII:")
-print('Le code'+ str(randomNum) 'correspond au' + myChar + '\n' ) 
-
+for _ in range(10):
+    myChar = input("Entrez un caractère: ")
+    print("Le code ASCII de", myChar, "est", ord(myChar))
